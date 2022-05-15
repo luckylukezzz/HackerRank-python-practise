@@ -9,8 +9,6 @@ for i in y.keys():
 mark=list(reversed(sorted(y.keys())))
 
 count=0
-# if len(x)>=3:
-  
 for i in mark:
   for j in (y[i]):
     if count<3:
