@@ -2,12 +2,12 @@
 
 for i in range(int(input())):
     a=input()
-    aa=set(input().split())
+    Set_A=set(input().split())
     b=input()
-    bb=set(input().split())
-    ct=0
-    for i in aa:
-        if i in bb:
-            ct+=1
-    print("True" if ct==len(aa) else "False")
+    Set_B=set(input().split())
+    count=0
+    for i in Set_A:
+        if i in Set_B:
+            count+=1
+    print("True" if count==len(Set_A) else "False")
         
